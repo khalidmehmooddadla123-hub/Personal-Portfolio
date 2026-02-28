@@ -1,8 +1,8 @@
 import { Rocket, Code2, Medal, Star, Award, Zap } from "lucide-react";
 import { useInView } from "../../hooks";
 import { useDarkModeContext } from "../../context/DarkModeContext";
-import { ACHIEVEMENTS } from "../../data";
 import SectionLabel from "../ui/SectionLabel";
+import { ACHIEVEMENTS } from "../../data";
 const ICON_MAP = { Rocket, Code2, Medal, Star, Award, Zap };
 
 export default function Achievements() {
